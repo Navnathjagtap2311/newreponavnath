@@ -5,15 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/index.html">
+    <link rel="stylesheet" href="/nana.css">
 </head>
 <body>
-    <form action="">
-<div>
+    <form action="" id="oop">
+        <div id="divbaba2"><h1>only accept string</h1></div>
+<div id="nana22" >
     <label for="">Username</label>
-    <input type="text">
+    <input id="input1" type="text" placeholder="number only" target>
+    <button onclick="validate()" >submit</button>
+</div>
+<br>
+<div id="divbaba">
+    <h1>only number accept</h1>
+</div>
+<div id="nana12">
+    <label for="">Username</label>
+    <input id="input2" type="text" placeholder="String only" target>
+    <button onclick="validate1()" >submit</button>
 </div>
 
+
+<script>
+    function validate(){
+        //only numbet accept
+        var age=document.getElementById("input1").value
+        if(!isNaN(age)){
+        }else{
+            alert("invalid input")
+        }
+    }
+
+
+
+    function validate1(){
+        //only String accept
+        var age=document.getElementById("input2").value
+        if(isNaN(age)){
+        }else{
+            alert("invalid input")
+        }
+    }
+    
+</script>
     </form>
 </body>
 </html>
