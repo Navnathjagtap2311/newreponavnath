@@ -15,3 +15,19 @@ background-color: teal;
     #nana22{
         margin-left: 500px;
     }
+
+    .container{
+        border: 2px solid black;
+        width: 1350px;
+        height: 200px;
+        padding-top: 100px;
+        text-align: center;
+        text-transform:uppercase;
+        background-attachment: fixed;
+        background-color:sandybrown;
+    }
+    .uio{
+        
+        text-align: center;
+        text-transform:uppercase;
+    }
